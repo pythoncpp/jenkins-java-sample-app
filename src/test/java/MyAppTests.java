@@ -18,4 +18,12 @@ public class MyAppTests {
         // the answer must be 60
         Assert.assertEquals(answer, 800);
     }
+
+    @Test
+    public void divideTest() {
+        int answer = Main.divide(40, 20);
+
+        // the answer must be 60
+        Assert.assertEquals(answer, 2);
+    }
 }
