@@ -21,7 +21,7 @@ public class MyAppTests {
 
     @Test
     public void divideTest() {
-        int answer = Main.divide(40, 20);
+        int answer = Main.multiply(40, 20);
 
         // the answer must be 60
         Assert.assertEquals(answer, 2);
